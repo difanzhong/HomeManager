@@ -1,0 +1,179 @@
+h1, h2, h3, h4, h5 {
+    font-family: "Roboto", "Lucida Grande", "DejaVu Sans", "Bitstream Vera Sans", Verdana, Arial, sans-serif;
+}
+
+@media (max-width:600px){
+    .m-only {
+        width:90% !important;
+        left: 5%;
+        line-height:40px;
+        height:40px;
+        font-weight: 600;
+        position:fixed;
+        z-index: 99;
+        bottom:15px;
+    }
+}
+
+@media (min-width:600px){
+    .m-only {
+        display: none !important;
+    }
+}
+.grey-font {
+    color: #858585;
+}
+.bold {
+    font-weight: bold;
+}
+.large-font {
+    font-size: 1.2em;
+}
+.c-container {
+    width:94%;
+}
+
+.picker__date-display{
+    display:none;
+}
+.picker__table th{
+    font-weight: 700;
+}
+.picker__table td{
+    font-weight: 700;
+    border:1px solid #ebeceb;
+}
+.picker__header{
+    line-height: 25px;
+
+}
+.picker {
+    font-family: 'Lato';
+    font-weight: 700;
+}
+.picker__table tbody{
+
+}
+
+.modal-footer {
+    font-family: "Lato";
+}
+.modal-content{
+    font-family: "Lato";
+}
+.modal-content label {
+    font-size: 120%;
+    font-weight: 700;
+}
+.modal-book-title {
+    font-family: 'Lato';
+    font-weight: 400;
+    background-color: #5a5a5a;
+    color: #FFF;
+    margin:0;
+    padding: 15px 25px;
+}
+.btn-m-book {
+    width:100%;
+    font-weight: 700;
+    line-height:40px;
+    height:40px;
+}
+
+.info-box{
+    border:1px solid #e5e5e5;
+    margin: 5px 0px;
+    background-color: #fff;
+}
+
+.ctm_detail {
+    margin-top:50px;
+}
+
+.house-info{
+    //border-top: 1px solid rgba(0,0,0,0.1);
+    border-bottom: 1px solid rgba(0,0,0,0.1);
+    padding: 1em 0;
+}
+
+.house-info h4 {
+    margin-top:0;
+    font-weight: bold;
+}
+.house-info h5 {
+    margin-bottom:2px;
+
+}
+.house-address {
+    display: block;
+}
+.house-title{
+    font-weight: 700;
+    font-family: 'Lato';
+}
+.house-title-under{
+    line-height:25px;
+    font-weight: 400;
+    font-family: 'Lato';
+    margin-bottom: 0;
+}
+.house-title-under-box{
+    line-height:25px;
+    font-weight: 400;
+    font-size:130%;
+    height:25px;
+}
+.house-title-under-box img {
+    margin:0 5px 0 0;
+    float:left;
+}
+.house-image {
+    max-height:500px;
+    overflow: hidden;
+
+}
+.house-image-s {
+    height:130px;
+    overflow: hidden;
+    position: relative;
+}
+
+.house-image img {
+    width:100%;
+    height:auto;
+}
+.house-image-s img{
+    width:100%;
+    position: relative;
+    left: 50%;
+    top: 50%;
+    -webkit-transform: translateY(-50%) translateX(-50%);
+}
+
+.num_of_nights{
+    position:relative;
+    padding:0 !important;
+}
+
+.emphasize {
+    font-size: 180%;
+    font-weight: bold;
+}
+
+.price-detail {
+    color: #c5c5c5;
+}
+.price-total {
+    color: #000000;
+    font-size: 130%;
+    font-weight: bold;
+}
+
+.check-date-label{
+    display: block;
+}
+.house-address{
+    color: rgba(0,0,0, 0.5);
+    padding-bottom: 1em;
+}
+
