@@ -1,2 +1,2 @@
 # HomeManager
-a home booking system
+a home booking system, it is on developing. 
